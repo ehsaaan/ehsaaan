@@ -1,4 +1,4 @@
-# Muhammad Ehsan Gondal
+# Ehsan M
 
 ### Principal / Senior Software Engineer — .NET specialist, backend-leaning full-stack
 
@@ -104,6 +104,8 @@ client — automated approval workflows, gate-pass / goods-receipt, and a config
 <details>
 <summary>▸ More screenshots</summary>
 
+<p align="center"><img src="assets/erp/03-gatepass-list.png" width="820" alt="Inward gate-pass transaction register"></p>
+<p align="center"><img src="assets/erp/04-item-coding.png" width="820" alt="Configurable item-master code structure"></p>
 <p align="center"><img src="assets/erp/02-item-config.png" width="820" alt="Item configuration — defaults, GL, taxes"></p>
 
 </details>
@@ -122,6 +124,8 @@ workflow, and an admin inventory manager.
 
 <p align="center"><img src="assets/prodealership/01-home.png" width="820" alt="Dealership home page"></p>
 <p align="center"><img src="assets/prodealership/03-vehicle-detail.png" width="820" alt="Vehicle detail page"></p>
+<p align="center"><img src="assets/prodealership/04-contact.png" width="820" alt="Contact page with location map"></p>
+<p align="center"><img src="assets/prodealership/05-inquiry.png" width="820" alt="Vehicle inquiry form"></p>
 
 </details>
 
