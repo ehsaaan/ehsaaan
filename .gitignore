@@ -1,0 +1,23 @@
+# Claude Code local settings
+.claude/
+
+# macOS
+.DS_Store
+._*
+*.tmp
+
+# ⚠️ NEVER COMMIT THESE — un-redacted patient/client data & personal info.
+# Only the profile README + the redacted assets/ folder are safe to publish.
+
+# Raw original screenshots (un-redacted patient names, MR#, client institution, ERP client logo)
+Projects/
+
+# CV source files — contain personal data (DOB, phone, home address)
+ehsaan_gondal_cv.json
+professional_context.json
+
+# Internal working doc — not for the public profile
+github-rebuild-plan.md
+
+# Python venv used only for the redaction tooling
+.venv/
