@@ -134,6 +134,6 @@ workflow, and an admin inventory manager.
 ### 📫 Reach me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iamehsaan/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:ehsaan.dev@outlook.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:ehsaan.arfeen@yahoo.com)
 
 📍 Lahore, Pakistan · open to relocation
