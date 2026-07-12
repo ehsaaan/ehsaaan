@@ -85,16 +85,29 @@ Client code is private; links point to the live products where they're public.
 Full history on [LinkedIn](https://www.linkedin.com/in/iamehsaan/).
 
 **Principal Software Engineer** · Allshore Talent / DatumSquare · *2019–present*
-Technical lead for an **association-management platform serving 15,000+ members**, owning architecture, code reviews, and delivery across ASP.NET Core REST APIs, role-based access control, a React/Redux front end, Mailgun email workflows, and scheduled Azure jobs. I mentor engineers, set the coding standards, and run an AI-augmented workflow: Claude Code and GitHub Copilot for code generation, AI-assisted PR review, and test generation, all behind human-in-the-loop quality gates.
+Technical lead on the platform a **15,000+ member US professional association** runs its membership, events, and member communications on, owning backend architecture and delivery end to end on a long-running client engagement.
+- **Lead & mentor** the team in an Agile/Scrum cadence: run code reviews, set the coding and branching standards, and grow engineers around me.
+- **Architect & ship** ASP.NET Core REST APIs, role-based access control, a React/Redux front end, Mailgun-driven member email workflows, and scheduled Azure jobs, delivered through Azure DevOps CI/CD.
+- **Drive AI-augmented delivery:** Claude Code and GitHub Copilot for code generation, AI-assisted PR review, and test generation, all behind human-in-the-loop quality gates.
 
 **Senior Software Engineer** · Eworx International · *2018–2019*
-Built a healthcare enrollment platform integrating with CMS FFE APIs, using ASP.NET Core, Angular + SurveyJS dynamic forms, and SQL Server stored-procedure optimization for high-volume enrollment periods.
+Healthcare enrollment platform integrating with the US **CMS Federally-Facilitated Exchange (FFE)**, where enrollment traffic spikes hard during open-enrollment windows.
+- Built ASP.NET Core services and **Angular + SurveyJS** dynamic enrollment forms that adapt to plan and applicant eligibility rules.
+- Tuned **SQL Server stored procedures** to keep the app responsive under high-volume open-enrollment load.
 
 **.NET Web Developer** · Generix Solutions · *2017–2018*
-Delivered modules for a manufacturing **ERP** (inventory, procurement, finance) using ASP.NET MVC, Entity Framework, Oracle PL/SQL, and jqGrid/DataTables.
+A state-owned **brass-mill manufacturer** was running inventory, procurement, and finance on disconnected systems: manual workflows, inconsistent data, stockouts and overstocking, and slow multi-department approvals. I helped consolidate all three into one **Smart ERP**.
+- **Inventory:** replaced manual stock tracking with an automated system plus dashboards for stock trends and reorder forecasting.
+- **Procurement:** centralized vendors and purchase orders behind a **workflow engine** that routed approvals by org hierarchy and checked stock levels in real time.
+- **Finance:** integrated financial data with procurement and inventory for real-time expense tracking and faster reconciliation.
+- **Stack:** ASP.NET / C#, Entity Framework, Oracle PL/SQL, RESTful Web APIs, and a Repository / DI / IoC structure, with jqGrid / DataTables for data-heavy screens.
 
 **Software Engineer** · Bilytica · *2016–2017*
-Built modules for **[Cloudpital](https://www.cloudpital.com)**, an EMR and practice-management system, using ASP.NET MVC / Web API, Knockout.js, SQL Server, and LINQ reporting.
+Clinics on **[Cloudpital](https://www.cloudpital.com)** were losing time to fragmented tools: slow appointment scheduling, hard-to-reach patient records, and error-prone billing. I built modules that brought these into one EMR and practice-management system.
+- **Appointments:** online and walk-in registration with SMS/email reminders and real-time updates to cut no-shows.
+- **EMR:** clinical-documentation templates, e-prescribing, and secure patient histories surfaced on a **one-page patient medical summary**.
+- **Billing:** automated charge capture and electronic claim submission to speed up the revenue cycle and reduce manual errors.
+- **Stack:** ASP.NET MVC / Web API, C#, Knockout.js, SQL Server, and LINQ reporting.
 
 ---
 
@@ -166,6 +179,6 @@ workflow, and an admin inventory manager.
 ### 📫 Reach me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iamehsaan/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:ehsaan.arfeen@yahoo.com)
+[![Email](https://img.shields.io/badge/Email-0078D4?style=flat&logo=data:image/svg%2Bxml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjZmZmIiBkPSJNNy44OCAxMi4wNHEwIC40NS0uMTEuODctLjEuNDEtLjMzLjc0LS4yMi4zMy0uNTguNTItLjM3LjItLjg3LjJ0LS44NS0uMnEtLjM1LS4yMS0uNTctLjU1LS4yMi0uMzMtLjMzLS43NS0uMS0uNDItLjEtLjg2dC4xLS44N3EuMS0uNDMuMzQtLjc2LjIyLS4zNC41OS0uNTQuMzYtLjIuODctLjJ0Ljg2LjJxLjM1LjIxLjU3LjU1LjIyLjM0LjMxLjc3LjEuNDMuMS44OHpNMjQgMTJ2OS4zOHEwIC40Ni0uMzMuOC0uMzMuMzItLjguMzJINy4xM3EtLjQ2IDAtLjgtLjMzLS4zMi0uMzMtLjMyLS44VjE4SDFxLS40MSAwLS43LS4zLS4zLS4yOS0uMy0uN1Y3cTAtLjQxLjMtLjdRLjU4IDYgMSA2aDYuNVYyLjU1cTAtLjQ0LjMtLjc1LjMtLjMuNzUtLjNoMTIuOXEuNDQgMCAuNzUuMy4zLjMuMy43NVYxMC44NWwxLjI0LjcyaC4wMXEuMS4wNy4xOC4xOC4wNy4xMi4wNy4yNXptLTYtOC4yNXYzaDN2LTN6bTAgNC41djNoM3YtM3ptMCA0LjV2MS44M2wzLjA1LTEuODN6bS01LjI1LTl2M2gzLjc1di0zem0wIDQuNXYzaDMuNzV2LTN6bTAgNC41djIuMDNsMi40MSAxLjUgMS4zNC0uOHYtMi43M3pNOSAzLjc1VjZoMmwuMTMuMDEuMTIuMDR2LTIuM3pNNS45OCAxNS45OHEuOSAwIDEuNi0uMy43LS4zMiAxLjE5LS44Ni40OC0uNTUuNzMtMS4yOC4yNS0uNzQuMjUtMS42MSAwLS44My0uMjUtMS41NS0uMjQtLjcxLS43MS0xLjI0dC0xLjE1LS44M3EtLjY4LS4zLTEuNTUtLjMtLjkyIDAtMS42NC4zLS43MS4zLTEuMi44NS0uNS41NC0uNzUgMS4zLS4yNS43NC0uMjUgMS42MyAwIC44NS4yNiAxLjU2LjI2LjcyLjc0IDEuMjMuNDguNTIgMS4xNy44MS42OS4zIDEuNTYuM3pNNy41IDIxaDEyLjM5TDEyIDE2LjA4VjE3cTAgLjQxLS4zLjctLjI5LjMtLjcuM0g3LjV6bTE1LS4xM3YtNy4yNGwtNS45IDMuNTRaIi8%2BPC9zdmc%2B&logoColor=white)](mailto:ehsaan.dev@outlook.com)
 
 📍 Lahore, Pakistan · open to relocation
