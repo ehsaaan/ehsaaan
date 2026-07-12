@@ -176,6 +176,21 @@ workflow, and an admin inventory manager.
 
 ---
 
+### 🚧 Open-Source Reference Builds (in progress)
+
+Open-source implementations of the architecture patterns I use in production, built in the
+open with an AI-augmented workflow. Each is a clean-room version of a real client project, so
+I can walk through the design openly. Repos get linked here as they go public.
+
+| Project | What it demonstrates | Core stack | Status |
+|---------|---------------------|-----------|--------|
+| **OrderFlow** | Event-driven order and inventory processing: transactional **outbox**, **saga**, and **idempotent consumers** over a message bus | `.NET 8` · `ASP.NET Core` · `Azure Service Bus` / `RabbitMQ` · `EF Core` · `Docker` | 🔨 Building |
+| **MemberHub API** | **Clean Architecture** membership API: CQRS, JWT with role-based access, integration tests via Testcontainers | `.NET 8` · `ASP.NET Core` · `MediatR` · `FluentValidation` · `EF Core` | 🗓️ Planned |
+| **PulseBoard** | Real-time metrics dashboard: **SignalR** with a Redis backplane streaming to a React/TypeScript client | `ASP.NET Core` · `SignalR` · `Redis` · `React` · `TypeScript` | 🗓️ Planned |
+| **Dispatch** | Resilient background-jobs and notifications worker: scheduled jobs, Polly retries, structured logging and observability | `.NET Worker` · `Quartz` · `Polly` · `Serilog` / `OpenTelemetry` | 🗓️ Planned |
+
+---
+
 ### 📫 Reach me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iamehsaan/)
