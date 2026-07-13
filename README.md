@@ -185,7 +185,7 @@ I can walk through the design openly. Repos get linked here as they go public.
 | Project | What it demonstrates | Core stack | Status |
 |---------|---------------------|-----------|--------|
 | **[OrderFlow](https://github.com/ehsaaan/OrderFlow)** | Event-driven order and inventory processing: transactional **outbox**, **saga**, and **idempotent consumers** over a message bus | `.NET 10` · `ASP.NET Core` · `Azure Service Bus` / `RabbitMQ` · `EF Core` · `Docker` | ✅ Live |
-| **MemberHub API** | **Clean Architecture** membership API: CQRS, JWT with role-based access, integration tests via Testcontainers | `.NET 8` · `ASP.NET Core` · `MediatR` · `FluentValidation` · `EF Core` | 🗓️ Planned |
+| **[MemberHub API](https://github.com/ehsaaan/MemberHub)** | **Clean Architecture** membership API: CQRS, JWT with role-based access, and a FluentValidation pipeline, covered by WebApplicationFactory integration tests | `.NET 10` · `ASP.NET Core` · `EF Core` · `FluentValidation` · `JWT` | ✅ Live |
 | **PulseBoard** | Real-time metrics dashboard: **SignalR** with a Redis backplane streaming to a React/TypeScript client | `ASP.NET Core` · `SignalR` · `Redis` · `React` · `TypeScript` | 🗓️ Planned |
 | **Dispatch** | Resilient background-jobs and notifications worker: scheduled jobs, Polly retries, structured logging and observability | `.NET Worker` · `Quartz` · `Polly` · `Serilog` / `OpenTelemetry` | 🗓️ Planned |
 
