@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PulseBoard - Dashboards</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #0d1117;
+      color: #c9d1d9;
+      padding: 24px;
+    }
+    h1 {
+      font-size: 24px;
+      color: #58a6ff;
+      margin-bottom: 8px;
+    }
+    .status {
+      font-size: 14px;
+      color: #3fb950;
+      margin-bottom: 20px;
+    }
+    .status::before { content: '● '; }
+    .btn {
+      display: inline-block;
+      padding: 8px 16px;
+      background: #238636;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: default;
+    }
+    h2 { font-size: 16px; margin: 16px 0 12px; color: #c9d1d9; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    th {
+      text-align: left;
+      padding: 10px 12px;
+      background: #161b22;
+      border: 1px solid #30363d;
+      color: #8b949e;
+      font-weight: 600;
+    }
+    td {
+      padding: 8px 12px;
+      border: 1px solid #30363d;
+    }
+    tr:nth-child(even) { background: #161b22; }
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      background: #238636;
+      color: #fff;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 500;
+    }
+    .types { color: #79c0ff; }
+  </style>
+</head>
+<body>
+  <h1>PulseBoard</h1>
+  <div class="status">Connected</div>
+  <div class="btn">+ Create Dashboard</div>
+  <h2>Active Dashboards</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Metric Types</th>
+        <th>Window</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Production</td>
+        <td class="types">CpuUsage, MemoryUsage</td>
+        <td>60s</td>
+        <td><span class="badge">Active</span></td>
+      </tr>
+      <tr>
+        <td>Staging</td>
+        <td class="types">MemoryUsage, DiskIo</td>
+        <td>120s</td>
+        <td><span class="badge">Active</span></td>
+      </tr>
+      <tr>
+        <td>Monitoring</td>
+        <td class="types">CpuUsage, MemoryUsage, DiskIo, NetworkIn, NetworkOut</td>
+        <td>30s</td>
+        <td><span class="badge">Active</span></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PulseBoard - Metrics Dashboard</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #0d1117;
+      color: #c9d1d9;
+      padding: 24px;
+    }
+    h1 {
+      font-size: 24px;
+      color: #58a6ff;
+      margin-bottom: 8px;
+    }
+    .status {
+      font-size: 14px;
+      color: #3fb950;
+      margin-bottom: 20px;
+    }
+    .status::before { content: '● '; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    th {
+      text-align: left;
+      padding: 10px 12px;
+      background: #161b22;
+      border: 1px solid #30363d;
+      color: #8b949e;
+      font-weight: 600;
+    }
+    td {
+      padding: 8px 12px;
+      border: 1px solid #30363d;
+    }
+    tr:nth-child(even) { background: #161b22; }
+    tr:hover { background: #1c2128; }
+    .value { color: #79c0ff; font-weight: 500; }
+    .time { color: #8b949e; }
+  </style>
+</head>
+<body>
+  <h1>PulseBoard</h1>
+  <div class="status">Connected</div>
+  <h2 style="font-size:16px; margin-bottom:12px; color:#c9d1d9;">Recent Metrics</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Source</th>
+        <th>Type</th>
+        <th>Value</th>
+        <th>Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>web-server-01</td><td>ErrorRate</td><td class="value">137.70</td><td class="time">9:40:03 AM</td></tr>
+      <tr><td>web-server-02</td><td>NetworkIn</td><td class="value">120.30</td><td class="time">9:40:03 AM</td></tr>
+      <tr><td>web-server-01</td><td>DiskIo</td><td class="value">116.60</td><td class="time">9:40:03 AM</td></tr>
+      <tr><td>db-server-01</td><td>MemoryUsage</td><td class="value">112.90</td><td class="time">9:40:03 AM</td></tr>
+      <tr><td>web-server-02</td><td>NetworkOut</td><td class="value">109.20</td><td class="time">9:40:03 AM</td></tr>
+      <tr><td>web-server-01</td><td>ResponseTime</td><td class="value">105.50</td><td class="time">9:40:03 AM</td></tr>
+      <tr><td>db-server-01</td><td>RequestCount</td><td class="value">101.80</td><td class="time">9:40:03 AM</td></tr>
+      <tr><td>web-server-02</td><td>CpuUsage</td><td class="value">98.10</td><td class="time">9:40:03 AM</td></tr>
+      <tr><td>web-server-01</td><td>Custom</td><td class="value">94.40</td><td class="time">9:40:03 AM</td></tr>
+      <tr><td>db-server-01</td><td>ErrorRate</td><td class="value">90.70</td><td class="time">9:40:03 AM</td></tr>
+      <tr><td>web-server-02</td><td>NetworkIn</td><td class="value">87.00</td><td class="time">9:40:03 AM</td></tr>
+      <tr><td>web-server-01</td><td>DiskIo</td><td class="value">83.30</td><td class="time">9:40:03 AM</td></tr>
+      <tr><td>db-server-01</td><td>MemoryUsage</td><td class="value">79.60</td><td class="time">9:40:03 AM</td></tr>
+      <tr><td>web-server-02</td><td>NetworkOut</td><td class="value">75.90</td><td class="time">9:40:03 AM</td></tr>
+      <tr><td>web-server-01</td><td>ResponseTime</td><td class="value">72.20</td><td class="time">9:40:03 AM</td></tr>
+      <tr><td>db-server-01</td><td>RequestCount</td><td class="value">68.50</td><td class="time">9:40:03 AM</td></tr>
+      <tr><td>web-server-02</td><td>CpuUsage</td><td class="value">64.80</td><td class="time">9:40:03 AM</td></tr>
+      <tr><td>web-server-01</td><td>Custom</td><td class="value">61.10</td><td class="time">9:40:03 AM</td></tr>
+      <tr><td>db-server-01</td><td>ErrorRate</td><td class="value">57.40</td><td class="time">9:40:03 AM</td></tr>
+      <tr><td>web-server-02</td><td>NetworkIn</td><td class="value">53.70</td><td class="time">9:40:03 AM</td></tr>
+    </tbody>
+  </table>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PulseBoard - API Overview</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #0d1117;
+      color: #c9d1d9;
+      padding: 24px;
+    }
+    h1 {
+      font-size: 24px;
+      color: #58a6ff;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      font-size: 14px;
+      color: #8b949e;
+      margin-bottom: 20px;
+    }
+    .api-section { margin-bottom: 16px; }
+    .api-section h2 {
+      font-size: 15px;
+      color: #c9d1d9;
+      margin-bottom: 8px;
+    }
+    .endpoint {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 10px;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+      font-size: 12px;
+      margin-bottom: 4px;
+    }
+    .method {
+      font-weight: 600;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 11px;
+      min-width: 40px;
+      text-align: center;
+    }
+    .get { background: #238636; color: #fff; }
+    .post { background: #1f6feb; color: #fff; }
+    .put { background: #9e6a03; color: #fff; }
+    .delete { background: #da3633; color: #fff; }
+    .path { color: #79c0ff; font-family: monospace; }
+    .desc { color: #8b949e; font-size: 11px; }
+  </style>
+</head>
+<body>
+  <h1>PulseBoard API</h1>
+  <div class="subtitle">Clean Architecture · SignalR · CQRS · SQLite</div>
+  <div class="api-section">
+    <h2>Metrics</h2>
+    <div class="endpoint"><span class="method get">GET</span> <span class="path">/</span> <span class="desc">Health check</span></div>
+    <div class="endpoint"><span class="method post">POST</span> <span class="path">/metrics</span> <span class="desc">Record a metric</span></div>
+    <div class="endpoint"><span class="method get">GET</span> <span class="path">/metrics</span> <span class="desc">Get metrics (paged, filterable)</span></div>
+  </div>
+  <div class="api-section">
+    <h2>Dashboards</h2>
+    <div class="endpoint"><span class="method post">POST</span> <span class="path">/dashboards</span> <span class="desc">Create a dashboard</span></div>
+    <div class="endpoint"><span class="method get">GET</span> <span class="path">/dashboards</span> <span class="desc">Get active dashboards</span></div>
+    <div class="endpoint"><span class="method get">GET</span> <span class="path">/dashboards/{id}</span> <span class="desc">Get dashboard by ID</span></div>
+    <div class="endpoint"><span class="method put">PUT</span> <span class="path">/dashboards/{id}</span> <span class="desc">Update a dashboard</span></div>
+    <div class="endpoint"><span class="method del">DEL</span> <span class="path">/dashboards/{id}</span> <span class="desc">Delete a dashboard</span></div>
+  </div>
+  <div class="api-section">
+    <h2>Realtime</h2>
+    <div class="endpoint"><span class="method get">WS</span> <span class="path">/metrics-hub</span> <span class="desc">SignalR hub (subscribe, unsubscribe)</span></div>
+  </div>
+  <div class="api-section">
+    <h2>Architecture</h2>
+    <div class="endpoint" style="display:block; padding: 10px;">
+      <span style="color:#8b949e; font-size:11px;">
+        Domain → Application (CQRS) → Infrastructure (EF Core, SignalR) → Api (Minimal API)
+      </span>
+    </div>
+  </div>
+</body>
+</html>

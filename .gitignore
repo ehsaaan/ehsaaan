@@ -19,5 +19,8 @@ professional_context.json
 # Internal working doc — not for the public profile
 github-rebuild-plan.md
 
+# Personal job-search notes — not for the public profile
+MyPerfectJD.md
+
 # Python venv used only for the redaction tooling
 .venv/

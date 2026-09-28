@@ -189,6 +189,23 @@ I can walk through the design openly. Repos get linked here as they go public.
 | **[PulseBoard](https://github.com/ehsaaan/pulseboard)** | Real-time metrics dashboard: **SignalR** with a Redis backplane streaming to a React/TypeScript client | `ASP.NET Core` · `SignalR` · `Redis` · `React` · `TypeScript` | ✅ Live |
 | **Dispatch** | Resilient background-jobs and notifications worker: scheduled jobs, Polly retries, structured logging and observability | `.NET Worker` · `Quartz` · `Polly` · `Serilog` / `OpenTelemetry` | 🗓️ Planned |
 
+#### 📡 PulseBoard · Real-Time Metrics Dashboard
+**Open-Source Reference Build · 2025**
+
+Real-time metrics dashboard with SignalR streaming to a React/TypeScript client. Clean Architecture with CQRS, in-memory aggregation, and optional Redis backplane for multi-instance deployments.
+
+**Tech:** `ASP.NET Core 10` · `SignalR` · `Redis` · `React` · `TypeScript` · `SQLite` · `xUnit` · `FluentAssertions`
+
+<p align="center"><img src="assets/pulseboard/01-metrics-dashboard.png" width="820" alt="PulseBoard metrics dashboard"></p>
+
+<details>
+<summary>▸ More screenshots</summary>
+
+<p align="center"><img src="assets/pulseboard/02-dashboards.png" width="820" alt="PulseBoard dashboards"></p>
+<p align="center"><img src="assets/pulseboard/03-api-overview.png" width="820" alt="PulseBoard API overview"></p>
+
+</details>
+
 ---
 
 ### 📫 Reach me
