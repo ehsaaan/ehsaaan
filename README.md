@@ -206,6 +206,22 @@ Real-time metrics dashboard with SignalR streaming to a React/TypeScript client.
 
 </details>
 
+#### ⚡ Dispatch · Background Job Scheduler & Notifications
+**Open-Source Reference Build · 2025**
+
+Resilient background job processing with scheduled jobs, **Polly** exponential backoff retries, and multi-channel notifications (email, SMS, push). Clean Architecture with CQRS, in-memory notification services, and a hosted background worker.
+
+**Tech:** `.NET 10` · `Minimal API` · `EF Core SQLite` · `Polly` · `BackgroundService` · `xUnit` · `FluentAssertions`
+
+<p align="center"><img src="assets/dispatch/01-jobs-dashboard.png" width="820" alt="Dispatch jobs dashboard"></p>
+
+<details>
+<summary>▸ More screenshots</summary>
+
+<p align="center"><img src="assets/dispatch/02-api-overview.png" width="820" alt="Dispatch API overview"></p>
+
+</details>
+
 ---
 
 ### 📫 Reach me
